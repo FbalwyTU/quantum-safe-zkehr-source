@@ -1,0 +1,25 @@
+{
+  "name": "baseline-zkehr",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "hardhat test",
+    "scenario1:secure": "node evaluation/scenario1-valid-proof.js",
+    "workflow:secure": "node scripts/retrieveRecord.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "description": "Baseline ZK-EHR reproduction code for the quantum-aware ZK-EHR research artifact.",
+  "dependencies": {
+    "circomlib": "^2.0.5",
+    "ethers": "^6.14.4",
+    "ipfs-http-client": "^56.0.3"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "chai": "^4.5.0",
+    "hardhat": "^2.24.3",
+    "snarkjs": "^0.7.5"
+  }
+}

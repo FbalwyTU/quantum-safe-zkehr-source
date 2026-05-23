@@ -1,0 +1,6 @@
+test_command,status,passing,failing,criticality,notes
+"npx hardhat test",PASS,22,0,CORE,"Full suite passed, including Lock sample tests, verifier tests, crypto utilities, secure workflow test, and gas measurement test."
+"npx hardhat test test/verifier.test.js",PASS,7,0,CORE,"Groth16Verifier accepts valid fixture and rejects invalid/tampered/public-input mismatch cases; event wrapper emits AccessGranted/AccessDenied."
+"npx hardhat test test/recordCrypto.test.js",PASS,4,0,CORE,"AES-256-GCM record encryption/decryption, unique keys/IVs, tamper rejection, and RSA-OAEP key wrapping passed."
+"npx hardhat test test/secureRecordWorkflow.test.js",PASS,1,0,CORE,"End-to-end workflow passed with in-memory IPFS test client and demo proof fixture."
+"npx hardhat test test/gas-measurement.test.js",PASS,1,0,CORE,"Existing gas measurement test estimated verifyProof at 214410 gas."

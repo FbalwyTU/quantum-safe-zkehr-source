@@ -1,0 +1,2 @@
+backend_name,job_id,shots,total_bits,count_0,count_1,zero_ratio,one_ratio,shannon_entropy_per_bit,monobit_balance_error,longest_run_0,longest_run_1,transitions_count,transitions_ratio,num_qubits,original_depth,transpiled_depth,status,notes,timestamp
+ibm_fez,redacted_public_artifact,1024,8192,4034,4158,0.492432,0.507568,0.999835,0.007568,12,12,4081,0.498230,8,2,4,DONE,Real IBM hardware execution. Metrics source=hardware_memory_order. No quantum advantage or production QRNG claim.,2026-05-16T20:36:56.026909+00:00

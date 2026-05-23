@@ -1,0 +1,26 @@
+iteration,algorithm,selection_mode,public_key_size,secret_key_size,ciphertext_size,shared_secret_size,keygen_ms,encapsulation_ms,decapsulation_ms,shared_secret_match,total_artifact_size,status,notes
+1,ML-KEM-768,requested,1184,2400,1088,32,1.7457500071031973,0.13520799984689802,0.03862500307150185,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+2,ML-KEM-768,requested,1184,2400,1088,32,0.028124995878897607,0.028541995561681688,0.028124995878897607,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+3,ML-KEM-768,requested,1184,2400,1088,32,0.026124995201826096,0.0269579904852435,0.027000001864507794,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+4,ML-KEM-768,requested,1184,2400,1088,32,0.025457993615418673,0.026458001229912043,0.026834008167497814,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+5,ML-KEM-768,requested,1184,2400,1088,32,0.02516699896659702,0.0262079993262887,0.026875000912696123,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+6,ML-KEM-768,requested,1184,2400,1088,32,0.02575000689830631,0.029874994652345777,0.03245800326112658,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+7,ML-KEM-768,requested,1184,2400,1088,32,0.025707995519042015,0.026583002181723714,0.026583002181723714,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+8,ML-KEM-768,requested,1184,2400,1088,32,0.024832988856360316,0.025666013243608177,0.02649999805726111,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+9,ML-KEM-768,requested,1184,2400,1088,32,0.02474999928381294,0.025874993298202753,0.02658400626387447,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+10,ML-KEM-768,requested,1184,2400,1088,32,0.02504100848454982,0.02591600059531629,0.02649999805726111,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+11,ML-KEM-768,requested,1184,2400,1088,32,0.024708002456463873,0.02562500594649464,0.026416004402562976,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+12,ML-KEM-768,requested,1184,2400,1088,32,0.024583001504652202,0.025749992346391082,0.026582987629808486,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+13,ML-KEM-768,requested,1184,2400,1088,32,0.025417000870220363,0.025917004677467048,0.026416993932798505,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+14,ML-KEM-768,requested,1184,2400,1088,32,0.024707987904548645,0.025749992346391082,0.026583002181723714,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+15,ML-KEM-768,requested,1184,2400,1088,32,0.02474999928381294,0.0255839986493811,0.026541994884610176,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+16,ML-KEM-768,requested,1184,2400,1088,32,0.025667002773843706,0.026667010388337076,0.027417001547291875,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+17,ML-KEM-768,requested,1184,2400,1088,32,0.024834007490426302,0.025708999601192772,0.026541005354374647,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+18,ML-KEM-768,requested,1184,2400,1088,32,0.024583001504652202,0.025749992346391082,0.026583002181723714,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+19,ML-KEM-768,requested,1184,2400,1088,32,0.024542008759453893,0.025708010070957243,0.02645899076014757,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+20,ML-KEM-768,requested,1184,2400,1088,32,0.024666995159350336,0.025459012249484658,0.026583002181723714,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+21,ML-KEM-768,requested,1184,2400,1088,32,0.024541004677303135,0.025582994567230344,0.026582987629808486,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+22,ML-KEM-768,requested,1184,2400,1088,32,0.02458399103488773,0.025542001822032034,0.026541994884610176,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+23,ML-KEM-768,requested,1184,2400,1088,32,0.02474999928381294,0.025415996788069606,0.02649999805726111,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+24,ML-KEM-768,requested,1184,2400,1088,32,0.024708002456463873,0.025917004677467048,0.026458001229912043,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.
+25,ML-KEM-768,requested,1184,2400,1088,32,0.024667009711265564,0.025374989490956068,0.027417001547291875,True,4672,PASS,Transient in-memory comparison iteration; no keys or shared secrets persisted.

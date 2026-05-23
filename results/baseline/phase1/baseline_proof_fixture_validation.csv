@@ -1,0 +1,5 @@
+check,status,expected,actual,source,notes
+valid_fixture_acceptance,PASS,true,true,lib/demoProofFixture.js,Verifier deployed at 0x5FbDB2315678afecb367f032d93F642f64180aa3.
+zero_proof_rejection,PASS,true,true,implementation_tools/phase1/phase1_verify_and_gas.js,All-zero proof should be rejected.
+tampered_proof_rejection,PASS,true,true,lib/demoProofFixture.js,Tampered pA[0] should be rejected.
+invalid_public_input_rejection,PASS,true,true,lib/demoProofFixture.js,Valid proof with public input 0x2 should be rejected.

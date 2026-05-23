@@ -1,0 +1,2 @@
+component,import_success,version,token_env_present,status,notes
+qiskit-ibm-runtime,True,0.47.0,False,TOKEN_ABSENT_NOT_REQUIRED,qiskit-ibm-runtime imports successfully. Token is absent and was not required for this import-only check.

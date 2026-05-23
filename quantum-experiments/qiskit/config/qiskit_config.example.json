@@ -1,0 +1,7 @@
+{
+  "default_shots": 1024,
+  "simulator_backend": "aer_simulator",
+  "ibm_hardware_enabled": false,
+  "ibm_token_env_var": "IBM_QUANTUM_TOKEN",
+  "notes": "Do not store IBM Quantum tokens in this file. Tokens must be provided through environment variables only."
+}

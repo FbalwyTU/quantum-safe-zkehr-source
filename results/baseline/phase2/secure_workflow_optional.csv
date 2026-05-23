@@ -1,0 +1,2 @@
+ipfs_available,status,cid,record_id_hash,verification_result,notes,timestamp
+false,SKIPPED_IPFS_UNAVAILABLE,,,,IPFS API unavailable at http://127.0.0.1:5001/api/v0: fetch failed,2026-05-16T14:50:28.561Z

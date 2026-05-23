@@ -1,0 +1,6 @@
+case_id,verifier,proof_source,expected,actual,status,gas_estimate,notes
+valid_verifyProof,contracts/Verifier.sol::Groth16Verifier,lib/demoProofFixture.js,true,true,PASS,214410,
+tampered_proof,contracts/Verifier.sol::Groth16Verifier,lib/demoProofFixture.js,false,false,PASS,16515657,
+corrupted_public_input,contracts/Verifier.sol::Groth16Verifier,lib/demoProofFixture.js,false,false,PASS,214410,
+verifyProofAndEmit_valid,contracts/Verifier.sol::Groth16Verifier,lib/demoProofFixture.js,AccessGranted,AccessGranted,PASS,220611,tx=0xc21310ed7401f8a0ed7c4d30e0c1c84e2ee57400c78e0166db7d51a8fa54e1f1
+verifyProofAndEmit_invalid,contracts/Verifier.sol::Groth16Verifier,lib/demoProofFixture.js,AccessDenied,AccessDenied,PASS,16260330,tx=0xbe71380a5ab6544c2114c731b42d399f283981882ed772ea45eddc0f3dde21dc

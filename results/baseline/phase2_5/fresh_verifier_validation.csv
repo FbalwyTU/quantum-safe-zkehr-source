@@ -1,0 +1,2 @@
+verifier_contract,proof_source,public_source,status,gas_estimate,notes
+Groth16VerifierPhase25,baseline_results/phase2_5/zk_artifacts/proof.generated.json,baseline_results/phase2_5/zk_artifacts/public.generated.json,PASS,214422,Fresh proof accepted by generated verifier at 0x5FbDB2315678afecb367f032d93F642f64180aa3.

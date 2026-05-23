@@ -1,0 +1,2 @@
+scenario,proof_time_ms,encrypt_upload_time_ms,verification_time_ms,key_release_time_ms,retrieve_decrypt_time_ms,cid,record_id_hash,verifier_event,round_trip_verified,timestamp
+scenario1-valid-proof,0.00,111.76,87.36,0.48,7.29,QmU1GjZ6okwQdPfAix1H1jnbcgLWuM5MzkYm9a5JFYYYt4,0xfe0797b9ce4721b37dd6d763d15e649a402c14416c250cebb7d8145152d904c4,AccessGranted,true,2026-05-16T15:15:49.350Z

@@ -1,0 +1,2 @@
+check,status,token_present,service_initialized,backend_count,selected_backend,notes,timestamp
+ibm_runtime_service,READY_FOR_IBM_TOKEN,False,False,0,,qiskit-ibm-runtime=0.47.0. No IBM token environment variable is present. This is acceptable for Phase 3.3.,2026-05-16T17:57:33.067311+00:00

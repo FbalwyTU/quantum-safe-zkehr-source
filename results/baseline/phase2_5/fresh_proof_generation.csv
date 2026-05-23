@@ -1,0 +1,11 @@
+step,status,artifact_path,notes
+powersoftau_new,PASS,baseline_results/phase2_5/zk_artifacts/pot12_0000.ptau,Generated bn128 power 12 Powers of Tau seed for local reproducibility only.
+powersoftau_contribute,PASS,baseline_results/phase2_5/zk_artifacts/pot12_0001.ptau,Added deterministic local contribution label for local reproducibility only.
+powersoftau_prepare_phase2,PASS,baseline_results/phase2_5/zk_artifacts/pot12_final.ptau,Prepared phase 2 ptau; snarkjs powersoftau verify reported OK.
+groth16_setup,PASS,baseline_results/phase2_5/zk_artifacts/access_0000.zkey,Created initial Groth16 zkey from compiled access.r1cs and local ptau.
+zkey_contribute,PASS,baseline_results/phase2_5/zk_artifacts/access_final.zkey,Added local zkey contribution; not a production trusted setup.
+zkey_export_verification_key,PASS,baseline_results/phase2_5/zk_artifacts/verification_key.generated.json,Exported verification key for generated local zkey.
+witness_calculate,PASS,baseline_results/phase2_5/zk_artifacts/witness.wtns,Generated witness from circuits/input.json and access_js/access.wasm.
+witness_check,PASS,baseline_results/phase2_5/zk_artifacts/witness.wtns,snarkjs wtns check reported WITNESS IS CORRECT.
+groth16_prove,PASS,baseline_results/phase2_5/zk_artifacts/proof.generated.json,Generated fresh proof and public signals from local reproducibility setup.
+groth16_verify,PASS,baseline_results/phase2_5/zk_artifacts/public.generated.json,snarkjs groth16 verify reported OK for generated proof.

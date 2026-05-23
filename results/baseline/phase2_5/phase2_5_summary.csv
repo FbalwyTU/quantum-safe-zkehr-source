@@ -1,0 +1,10 @@
+category,artifact_path,status,description
+environment,baseline_results/phase2_5/phase2_5_command_log.txt,PASS,Command log records tool versions and all major Phase 2.5 commands.
+circuit_build,baseline_results/phase2_5/circom_build_status.csv,PASS,circuits/access.circom compiled to r1cs sym and wasm artifacts under zk_artifacts.
+fresh_proof_generation,baseline_results/phase2_5/fresh_proof_generation.csv,PASS,Local reproducibility-only Powers of Tau Groth16 setup witness generation proof generation and snarkjs verification succeeded.
+fresh_verifier_validation,baseline_results/phase2_5/fresh_verifier_validation.csv,PASS,Generated Solidity verifier accepted the freshly generated proof.
+existing_fixture_validation,baseline_results/phase2_5/existing_fixture_validation.csv,PASS,Checked-in verifier fixture accepted valid proof and rejected tampered proof/corrupted public input.
+ipfs_runtime,baseline_results/phase2_5/ipfs_runtime_status.json,PASS,Isolated local IPFS repo started and API returned version 0.18.1.
+end_to_end_workflow,baseline_results/phase2_5/end_to_end_workflow.csv,PASS,scripts/retrieveRecord.js completed with local IPFS and local Hardhat verifier using the checked-in proof fixture fallback.
+evaluation_scripts,baseline_results/phase2_5/original_script_reproduction.csv,PASS,Original evaluation scripts ran with safe redirected output paths under baseline_results/phase2_5/evaluation_runs.
+hardhat_tests,baseline_results/phase2_5/phase2_5_command_log.txt,PASS,Full Hardhat test suite passed after adding the generated Phase 2.5 verifier contract.

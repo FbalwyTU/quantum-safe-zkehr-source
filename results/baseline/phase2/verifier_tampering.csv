@@ -1,0 +1,2 @@
+experiment,case_id,status,expected_result,actual_result,passed,latency_ms,gas_estimate,tx_hash,verifier_address,notes,timestamp
+verifier_tampered_proof,tampered_pA0_plus_one,PASS,false,false,true,12.75,16515657,,0x5FbDB2315678afecb367f032d93F642f64180aa3,Minimal mutation: pA[0] incremented by one.,2026-05-16T14:50:28.345Z

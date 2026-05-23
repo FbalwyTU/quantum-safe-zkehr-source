@@ -1,0 +1,4 @@
+backend_name,num_qubits,operational,pending_jobs,basis_gates,selected,status,notes
+ibm_fez,156,True,0,"[""cz"", ""delay"", ""id"", ""if_else"", ""measure"", ""reset"", ""rz"", ""sx"", ""x""]",True,SELECTED,Hardware backend metadata only; no job submitted during selection.
+ibm_kingston,156,True,0,"[""cz"", ""delay"", ""id"", ""if_else"", ""measure"", ""measure_2"", ""reset"", ""rz"", ""sx"", ""x""]",False,VISIBLE,Hardware backend metadata only; no job submitted during selection.
+ibm_marrakesh,156,True,0,"[""cz"", ""delay"", ""id"", ""if_else"", ""measure"", ""reset"", ""rz"", ""sx"", ""x""]",False,VISIBLE,Hardware backend metadata only; no job submitted during selection.

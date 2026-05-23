@@ -1,0 +1,300 @@
+{
+  "backend_type": "local_aer_simulator",
+  "created_at": "2026-05-16T17:29:19.103732+00:00",
+  "experiment": "toy_access_policy_simulator",
+  "hardware_used": false,
+  "ibm_authentication_attempted": false,
+  "phase": "3.2",
+  "policy": "access_granted = role_valid AND department_valid AND authorized",
+  "qiskit_aer_version": "0.17.2",
+  "qiskit_version": "2.4.1",
+  "runs": [
+    {
+      "authorized": 0,
+      "backend": "aer_simulator",
+      "counts": {
+        "0": 1024
+      },
+      "department_valid": 0,
+      "dominant_output": "0",
+      "expected_granted": false,
+      "expected_output": "0",
+      "metadata": {
+        "circuit_depth": 4,
+        "gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1
+        },
+        "num_clbits": 1,
+        "num_gates": 6,
+        "num_qubits": 5,
+        "transpiled_depth": 4,
+        "transpiled_gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1
+        }
+      },
+      "role_valid": 0,
+      "runtime_ms": 465.1989580015652,
+      "seed_simulator": 3201,
+      "shots": 1024,
+      "success_probability": 1.0,
+      "timestamp": "2026-05-16T17:29:19.765603+00:00"
+    },
+    {
+      "authorized": 1,
+      "backend": "aer_simulator",
+      "counts": {
+        "0": 1024
+      },
+      "department_valid": 0,
+      "dominant_output": "0",
+      "expected_granted": false,
+      "expected_output": "0",
+      "metadata": {
+        "circuit_depth": 5,
+        "gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 1
+        },
+        "num_clbits": 1,
+        "num_gates": 7,
+        "num_qubits": 5,
+        "transpiled_depth": 5,
+        "transpiled_gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 1
+        }
+      },
+      "role_valid": 0,
+      "runtime_ms": 69.43991599837318,
+      "seed_simulator": 3202,
+      "shots": 1024,
+      "success_probability": 1.0,
+      "timestamp": "2026-05-16T17:29:19.835224+00:00"
+    },
+    {
+      "authorized": 0,
+      "backend": "aer_simulator",
+      "counts": {
+        "0": 1024
+      },
+      "department_valid": 1,
+      "dominant_output": "0",
+      "expected_granted": false,
+      "expected_output": "0",
+      "metadata": {
+        "circuit_depth": 5,
+        "gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 1
+        },
+        "num_clbits": 1,
+        "num_gates": 7,
+        "num_qubits": 5,
+        "transpiled_depth": 5,
+        "transpiled_gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 1
+        }
+      },
+      "role_valid": 0,
+      "runtime_ms": 66.04941700061318,
+      "seed_simulator": 3203,
+      "shots": 1024,
+      "success_probability": 1.0,
+      "timestamp": "2026-05-16T17:29:19.901428+00:00"
+    },
+    {
+      "authorized": 1,
+      "backend": "aer_simulator",
+      "counts": {
+        "0": 1024
+      },
+      "department_valid": 1,
+      "dominant_output": "0",
+      "expected_granted": false,
+      "expected_output": "0",
+      "metadata": {
+        "circuit_depth": 5,
+        "gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 2
+        },
+        "num_clbits": 1,
+        "num_gates": 8,
+        "num_qubits": 5,
+        "transpiled_depth": 5,
+        "transpiled_gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 2
+        }
+      },
+      "role_valid": 0,
+      "runtime_ms": 68.07383299747016,
+      "seed_simulator": 3204,
+      "shots": 1024,
+      "success_probability": 1.0,
+      "timestamp": "2026-05-16T17:29:19.969652+00:00"
+    },
+    {
+      "authorized": 0,
+      "backend": "aer_simulator",
+      "counts": {
+        "0": 1024
+      },
+      "department_valid": 0,
+      "dominant_output": "0",
+      "expected_granted": false,
+      "expected_output": "0",
+      "metadata": {
+        "circuit_depth": 5,
+        "gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 1
+        },
+        "num_clbits": 1,
+        "num_gates": 7,
+        "num_qubits": 5,
+        "transpiled_depth": 5,
+        "transpiled_gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 1
+        }
+      },
+      "role_valid": 1,
+      "runtime_ms": 67.4683749966789,
+      "seed_simulator": 3205,
+      "shots": 1024,
+      "success_probability": 1.0,
+      "timestamp": "2026-05-16T17:29:20.037267+00:00"
+    },
+    {
+      "authorized": 1,
+      "backend": "aer_simulator",
+      "counts": {
+        "0": 1024
+      },
+      "department_valid": 0,
+      "dominant_output": "0",
+      "expected_granted": false,
+      "expected_output": "0",
+      "metadata": {
+        "circuit_depth": 5,
+        "gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 2
+        },
+        "num_clbits": 1,
+        "num_gates": 8,
+        "num_qubits": 5,
+        "transpiled_depth": 5,
+        "transpiled_gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 2
+        }
+      },
+      "role_valid": 1,
+      "runtime_ms": 67.48220800363924,
+      "seed_simulator": 3206,
+      "shots": 1024,
+      "success_probability": 1.0,
+      "timestamp": "2026-05-16T17:29:20.104893+00:00"
+    },
+    {
+      "authorized": 0,
+      "backend": "aer_simulator",
+      "counts": {
+        "0": 1024
+      },
+      "department_valid": 1,
+      "dominant_output": "0",
+      "expected_granted": false,
+      "expected_output": "0",
+      "metadata": {
+        "circuit_depth": 5,
+        "gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 2
+        },
+        "num_clbits": 1,
+        "num_gates": 8,
+        "num_qubits": 5,
+        "transpiled_depth": 5,
+        "transpiled_gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 2
+        }
+      },
+      "role_valid": 1,
+      "runtime_ms": 68.53683400549926,
+      "seed_simulator": 3207,
+      "shots": 1024,
+      "success_probability": 1.0,
+      "timestamp": "2026-05-16T17:29:20.173583+00:00"
+    },
+    {
+      "authorized": 1,
+      "backend": "aer_simulator",
+      "counts": {
+        "1": 1024
+      },
+      "department_valid": 1,
+      "dominant_output": "1",
+      "expected_granted": true,
+      "expected_output": "1",
+      "metadata": {
+        "circuit_depth": 5,
+        "gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 3
+        },
+        "num_clbits": 1,
+        "num_gates": 9,
+        "num_qubits": 5,
+        "transpiled_depth": 5,
+        "transpiled_gate_counts": {
+          "barrier": 2,
+          "ccx": 3,
+          "measure": 1,
+          "x": 3
+        }
+      },
+      "role_valid": 1,
+      "runtime_ms": 70.17429200641345,
+      "seed_simulator": 3208,
+      "shots": 1024,
+      "success_probability": 1.0,
+      "timestamp": "2026-05-16T17:29:20.243927+00:00"
+    }
+  ],
+  "shots": 1024
+}

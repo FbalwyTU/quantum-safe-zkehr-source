@@ -1,0 +1,7 @@
+{
+  "backends": [],
+  "jobs_submitted": false,
+  "qiskit_ibm_runtime_version": "0.47.0",
+  "service_initialized": false,
+  "token_present": false
+}

@@ -1,0 +1,6 @@
+scenario,modification,result,verify_time_ms,timestamp
+2.a,Tampered pi_a[0],REJECTED ✅,17.77,2026-05-16T15:15:50.646Z
+2.b,Tampered pi_c[1],REJECTED ✅,12.05,2026-05-16T15:15:50.659Z
+2.c,Modified public[0],REJECTED ✅,14.26,2026-05-16T15:15:50.673Z
+2.d,Swapped pi_b structure,REJECTED ✅,12.97,2026-05-16T15:15:50.687Z
+2.e,Valid Proof,ACCEPTED ❌,14.73,2026-05-16T15:15:50.702Z

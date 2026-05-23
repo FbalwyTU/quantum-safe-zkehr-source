@@ -1,0 +1,12 @@
+category,artifact_path,status,description
+dependency_install,baseline_results/phase1_command_log.txt,PASSED,"npm ci completed successfully from package-lock.json; package.json and package-lock.json checksums were unchanged; npm reported deprecation warnings and 57 audit vulnerabilities."
+contract_compile,artifacts/contracts/Verifier.sol/Groth16Verifier.json,PASSED,"npx hardhat compile succeeded and generated Groth16Verifier artifact."
+tests,baseline_results/baseline_test_results.csv,PASSED,"Full Hardhat suite and targeted core tests passed."
+proof_fixture_verification,baseline_results/baseline_proof_fixture_validation.csv,PASSED,"Demo proof fixture was accepted by Solidity verifier; zero, tampered, and invalid-public-input checks were rejected."
+proof_fixture_verification,proof.json,PASSED,"npx snarkjs groth16 verify verification_key.json public.json proof.json returned OK."
+proof_fixture_verification,circuits/access_js/access.wasm,NOT_FOUND,"Fresh proof generation from circuit source is not reproducible because access.wasm is missing."
+proof_fixture_verification,access_final.zkey,NOT_FOUND,"Fresh proof generation from circuit source is not reproducible because the final proving key is missing."
+gas_measurement,baseline_results/baseline_gas_results.csv,PASSED,"verifyProof estimated at 214410 gas and verifyProofAndEmit estimated at 220611 gas on Hardhat network."
+workflow_smoke_test,baseline_results/baseline_workflow_smoke_test.csv,PARTIAL,"Verifier deployment worked; production retrieval workflows failed at IPFS upload because the IPFS API daemon was unavailable."
+workflow_smoke_test,baseline_results/phase1_scenario1_secure_logs.csv,PARTIAL,"Scenario 1 redirected CSV was created with header only before IPFS failure."
+experiment_diagnosis,baseline_results/baseline_experiment_diagnosis.csv,COMPLETED,"Experiment scripts were inspected and diagnosed; only scenario1-valid-proof was attempted and failed due IPFS."

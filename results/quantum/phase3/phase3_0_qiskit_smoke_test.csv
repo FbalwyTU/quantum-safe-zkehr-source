@@ -1,0 +1,2 @@
+test_name,status,backend,shots,count_0,count_1,zero_ratio,one_ratio,num_qubits,num_clbits,circuit_depth,notes,timestamp
+one_qubit_h_measurement,PASS,aer_simulator,1024,492,532,0.480469,0.519531,1,1,2,Local Aer simulator execution only; no IBM authentication or hardware call.,2026-05-16T17:12:30.130640+00:00

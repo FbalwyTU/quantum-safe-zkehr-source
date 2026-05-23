@@ -1,0 +1,15 @@
+{
+  "backend": "aer_simulator",
+  "circuit_depth": 2,
+  "measurement_counts": {
+    "0": 497,
+    "1": 527
+  },
+  "notes": "Explicit metadata artifact for Phase 3.0. Local simulator only.",
+  "num_clbits": 1,
+  "num_gates": 2,
+  "num_qubits": 1,
+  "shots": 1024,
+  "test_name": "one_qubit_h_measurement",
+  "timestamp": "2026-05-16T17:13:03.859909+00:00"
+}

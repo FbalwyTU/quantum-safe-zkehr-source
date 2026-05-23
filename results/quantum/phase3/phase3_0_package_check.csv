@@ -1,0 +1,6 @@
+package,version,installed,import_success,status,notes
+qiskit,2.4.1,True,True,PASS,Installed and imported successfully.
+qiskit-aer,0.17.2,True,True,PASS,Installed and imported successfully.
+qiskit-ibm-runtime,0.47.0,True,True,PASS,Installed and imported successfully.
+numpy,2.4.5,True,True,PASS,Installed and imported successfully.
+pandas,3.0.3,True,True,PASS,Installed and imported successfully.

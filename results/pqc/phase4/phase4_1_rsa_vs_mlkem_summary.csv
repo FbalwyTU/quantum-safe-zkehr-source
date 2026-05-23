@@ -1,0 +1,7 @@
+algorithm,operation,iterations,avg_ms,stdev_ms,min_ms,max_ms,success_count,failure_count,notes
+RSA-OAEP-2048-SHA256,key_generation,25,59.516855,47.899236,21.067458,216.965042,25,0,Controlled local comparison; not production deployment.
+RSA-OAEP-2048-SHA256,wrap_or_encapsulate,25,0.147682,0.247983,0.070959,1.335250,25,0,Controlled local comparison; not production deployment.
+RSA-OAEP-2048-SHA256,unwrap_or_decapsulate,25,1.522038,0.034490,1.448875,1.592000,25,0,Controlled local comparison; not production deployment.
+ML-KEM-768,key_generation,25,0.093937,0.344129,0.024541,1.745750,25,0,Controlled local comparison; not production deployment.
+ML-KEM-768,wrap_or_encapsulate,25,0.030522,0.021834,0.025375,0.135208,25,0,Controlled local comparison; not production deployment.
+ML-KEM-768,unwrap_or_decapsulate,25,0.027428,0.002629,0.026416,0.038625,25,0,Controlled local comparison; not production deployment.

@@ -1,0 +1,9 @@
+Synthetic ZK-EHR reproducibility fixture.
+
+This file contains no real patient data. It exists only to exercise the
+encrypted-record workflow, AES-GCM round trip, RSA-OAEP key wrapping, and
+mock IPFS tests in the public research artifact.
+
+Record category: synthetic demonstration record
+Created for: reproducibility smoke tests
+Clinical status: not a clinical document

@@ -1,0 +1,32 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the manuscript and the baseline Systems paper."
+title: "Quantum-Aware ZK-EHR Source Code"
+type: software
+authors:
+  - family-names: Albalwy
+    given-names: Faisal
+    orcid: "https://orcid.org/0000-0002-2342-2156"
+repository-code: "https://github.com/FbalwyTU/quantum-aware-zkehr-source"
+url: "https://github.com/FbalwyTU/quantum-aware-zkehr-source"
+license: MIT
+date-released: "2026-05-23"
+preferred-citation:
+  type: article
+  title: "Quantum-Aware Extension of Blockchain-Based Zero-Knowledge EHR Systems: IBM Quantum Feasibility and ML-KEM Key-Release Migration"
+  authors:
+    - family-names: Albalwy
+      given-names: Faisal
+      orcid: "https://orcid.org/0000-0002-2342-2156"
+  year: 2026
+  notes: "Manuscript submitted to Systems, 2026."
+references:
+  - type: article
+    title: "Zero-Knowledge-Based Policy Enforcement for Privacy-Preserving Cross-Institutional Health Data Sharing on Blockchain"
+    authors:
+      - family-names: Albalwy
+        given-names: Faisal
+    journal: Systems
+    year: 2026
+    volume: 14
+    issue: 4
+    doi: "10.3390/systems14040385"

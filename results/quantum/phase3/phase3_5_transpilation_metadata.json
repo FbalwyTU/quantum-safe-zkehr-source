@@ -1,0 +1,41 @@
+{
+  "backend_basis_gates": [
+    "cz",
+    "delay",
+    "id",
+    "if_else",
+    "measure",
+    "reset",
+    "rz",
+    "sx",
+    "x"
+  ],
+  "backend_name": "ibm_fez",
+  "backend_num_qubits": 156,
+  "created_at": "2026-05-16T21:00:27.880147+00:00",
+  "expected_output": "1",
+  "inputs": {
+    "authorized": 1,
+    "department_valid": 1,
+    "role_valid": 1
+  },
+  "original_depth": 5,
+  "original_gate_counts": {
+    "barrier": 2,
+    "ccx": 3,
+    "measure": 1,
+    "x": 3
+  },
+  "phase": "3.5",
+  "shots": 1024,
+  "transpilation_time_ms": 31.838249997235835,
+  "transpiled_depth": 114,
+  "transpiled_gate_counts": {
+    "barrier": 2,
+    "cz": 30,
+    "measure": 1,
+    "rz": 60,
+    "sx": 57,
+    "x": 3
+  }
+}

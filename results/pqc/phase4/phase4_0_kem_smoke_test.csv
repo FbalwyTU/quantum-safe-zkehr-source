@@ -1,0 +1,2 @@
+algorithm_name,public_key_size,secret_key_size,ciphertext_size,shared_secret_size,keygen_ms,encapsulation_ms,decapsulation_ms,shared_secret_match,status,notes,timestamp
+ML-KEM-768,1184,2400,1088,32,9.916958,0.086125,0.039292,true,PASS,Local smoke test only; no ZK-EHR workflow integration performed.,2026-05-16T21:27:56.086170+00:00

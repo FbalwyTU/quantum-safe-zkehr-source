@@ -1,0 +1,2 @@
+experiment,case_id,status,expected_result,actual_result,passed,latency_ms,gas_estimate,tx_hash,verifier_address,notes,timestamp
+verifier_valid_proof,valid_fixture,PASS,true,true,true,14.73,214410,,0x5FbDB2315678afecb367f032d93F642f64180aa3,"Source fixture: lib/demoProofFixture.js; proof.json protocol=groth16; publicSignals=[""1""]",2026-05-16T14:50:28.319Z

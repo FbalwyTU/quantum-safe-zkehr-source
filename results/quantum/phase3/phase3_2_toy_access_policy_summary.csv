@@ -1,0 +1,9 @@
+role_valid,department_valid,authorized,expected_granted,dominant_output,success_probability,status,shots,backend,circuit_depth,transpiled_depth,num_qubits,num_gates,runtime_ms,timestamp
+0,0,0,False,0,1.000000,PASS,1024,aer_simulator,4,4,5,6,465.198958,2026-05-16T17:29:19.765603+00:00
+0,0,1,False,0,1.000000,PASS,1024,aer_simulator,5,5,5,7,69.439916,2026-05-16T17:29:19.835224+00:00
+0,1,0,False,0,1.000000,PASS,1024,aer_simulator,5,5,5,7,66.049417,2026-05-16T17:29:19.901428+00:00
+0,1,1,False,0,1.000000,PASS,1024,aer_simulator,5,5,5,8,68.073833,2026-05-16T17:29:19.969652+00:00
+1,0,0,False,0,1.000000,PASS,1024,aer_simulator,5,5,5,7,67.468375,2026-05-16T17:29:20.037267+00:00
+1,0,1,False,0,1.000000,PASS,1024,aer_simulator,5,5,5,8,67.482208,2026-05-16T17:29:20.104893+00:00
+1,1,0,False,0,1.000000,PASS,1024,aer_simulator,5,5,5,8,68.536834,2026-05-16T17:29:20.173583+00:00
+1,1,1,True,1,1.000000,PASS,1024,aer_simulator,5,5,5,9,70.174292,2026-05-16T17:29:20.243927+00:00

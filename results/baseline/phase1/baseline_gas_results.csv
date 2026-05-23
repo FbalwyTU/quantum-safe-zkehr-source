@@ -1,0 +1,3 @@
+contract,function,gas_estimate,status,notes
+Groth16Verifier,verifyProof,214410,OK,Estimated against valid demo proof fixture on in-process Hardhat network.
+Groth16Verifier,verifyProofAndEmit,220611,OK,Estimated against valid demo proof fixture on in-process Hardhat network.

@@ -1,0 +1,5 @@
+package,version,installed,import_success,status,notes
+liboqs-python,0.15.0,true,true,PASS,Python binding used through the oqs module. module_file=<source-project>/pqc-mlkem-analysis/pqc/.venv/lib/python3.12/site-packages/oqs/__init__.py; enabled_kem_count=32
+oqs,0.10.2,true,true,PASS,Requested package name; import resolves through the oqs module. module_file=<source-project>/pqc-mlkem-analysis/pqc/.venv/lib/python3.12/site-packages/oqs/__init__.py; enabled_kem_count=32
+cmake,4.3.2,true,true,PASS,Build helper required for native liboqs installation in this environment. module_file=<source-project>/pqc-mlkem-analysis/pqc/.venv/lib/python3.12/site-packages/cmake/__init__.py
+ninja,1.13.0,true,true,PASS,Build helper installed for native liboqs builds. module_file=<source-project>/pqc-mlkem-analysis/pqc/.venv/lib/python3.12/site-packages/ninja/__init__.py

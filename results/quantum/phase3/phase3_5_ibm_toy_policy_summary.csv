@@ -1,0 +1,2 @@
+backend_name,job_id,shots,expected_output,dominant_output,success_probability,num_qubits,original_depth,transpiled_depth,status,notes,timestamp
+ibm_fez,redacted_public_artifact,1024,1,1,0.831055,5,5,114,DONE,"Real IBM hardware execution for toy policy input 1,1,1. Mismatch probability=0.168945. This is not Groth16, not zero-knowledge, and not production access control.",2026-05-16T21:00:45.027721+00:00

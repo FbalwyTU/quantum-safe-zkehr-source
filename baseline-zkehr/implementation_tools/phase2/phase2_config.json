@@ -1,0 +1,19 @@
+{
+  "rpcUrl": "http://127.0.0.1:8545",
+  "defaultPrivateKey": "0xac0974bec39a17e36ba4a6b4d238ff944bacb478cbed5efcae784d7bf4f2ff80",
+  "verifierAddress": "0x5FbDB2315678afecb367f032d93F642f64180aa3",
+  "ipfsApiUrl": "http://127.0.0.1:5001/api/v0",
+  "outputDir": "baseline_results/phase2",
+  "iterations": {
+    "default": 1,
+    "concurrentBatchSize": 5
+  },
+  "useIpfs": true,
+  "useMockIpfsIfAvailable": false,
+  "notes": [
+    "Phase 2 local development fixture configuration only.",
+    "The private key is Hardhat's publicly documented local account #0 key and must never be used on a live network.",
+    "The verifierAddress value is Hardhat's deterministic first deployment address; deployment.json is authoritative after running deploy_verifier_phase2.js.",
+    "All Phase 2 outputs must be written under baseline_results/phase2 and must not append to evaluation/*.csv."
+  ]
+}

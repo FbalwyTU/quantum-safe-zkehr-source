@@ -1,0 +1,78 @@
+# OS metadata
+.DS_Store
+Thumbs.db
+
+# Credentials and local secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+*wallet*
+*mnemonic*
+*secret*
+
+# Node.js and Hardhat
+node_modules/
+baseline-zkehr/node_modules/
+baseline-zkehr/artifacts/
+baseline-zkehr/cache/
+baseline-zkehr/typechain-types/
+baseline-zkehr/coverage/
+baseline-zkehr/baseline_results/
+baseline-zkehr/runtime-data/
+baseline-zkehr/downloads/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+quantum-experiments/qiskit/.venv/
+pqc-mlkem-analysis/pqc/.venv/
+
+# Generated experiment/runtime outputs not intended for the public artifact
+*.log
+*_command_log.txt
+results/quantum/phase3/*token*.csv
+results/quantum/phase3/*job_state*.json
+results/**/.DS_Store
+
+# Circom/snarkjs generated artifacts
+*.ptau
+*.zkey
+*.wtns
+*.r1cs
+*.sym
+*.wasm
+baseline-zkehr/circuits/access_js/
+baseline-zkehr/access_final.zkey
+
+# Manuscript and paper artifacts
+overleaf/
+figures/
+paper_assets/
+Writing Plan/
+Literature Review/
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.pdf
+
+# Archives and snapshots
+*.tar
+*.tar.gz
+*.zip
+project_snapshots/

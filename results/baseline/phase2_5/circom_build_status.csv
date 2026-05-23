@@ -1,0 +1,5 @@
+step,command,status,artifact_path,notes
+compile_circuit,"circom circuits/access.circom --r1cs --wasm --sym -o baseline_results/phase2_5/zk_artifacts",PASS,baseline_results/phase2_5/zk_artifacts/access.r1cs,"Circuit compiled successfully with 5 constraints, 3 private inputs, 0 public inputs, and 1 public output."
+compile_circuit,"circom circuits/access.circom --r1cs --wasm --sym -o baseline_results/phase2_5/zk_artifacts",PASS,baseline_results/phase2_5/zk_artifacts/access.sym,"Symbol file generated successfully."
+compile_circuit,"circom circuits/access.circom --r1cs --wasm --sym -o baseline_results/phase2_5/zk_artifacts",PASS,baseline_results/phase2_5/zk_artifacts/access_js/access.wasm,"WASM witness generation artifact generated successfully."
+inspect_r1cs,"npx snarkjs r1cs info baseline_results/phase2_5/zk_artifacts/access.r1cs",PASS,baseline_results/phase2_5/zk_artifacts/access.r1cs,"snarkjs r1cs info succeeded."

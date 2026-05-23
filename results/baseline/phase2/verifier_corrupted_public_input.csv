@@ -1,0 +1,2 @@
+experiment,case_id,status,expected_result,actual_result,passed,latency_ms,gas_estimate,tx_hash,verifier_address,notes,timestamp
+verifier_corrupted_public_input,public_signal_0x2,PASS,false,false,true,13.76,214410,,0x5FbDB2315678afecb367f032d93F642f64180aa3,Valid proof fixture reused with wrong public signal.,2026-05-16T14:50:28.373Z

@@ -1,0 +1,54 @@
+{
+  "backend_name": "ibm_fez",
+  "counts": {
+    "0": 173,
+    "1": 851
+  },
+  "created_at": "2026-05-16T21:00:45.026980+00:00",
+  "expected_output": "1",
+  "experiment": "ibm_toy_access_policy_hardware",
+  "hardware_used": true,
+  "inputs": {
+    "authorized": 1,
+    "department_valid": 1,
+    "role_valid": 1
+  },
+  "job_id": "redacted_public_artifact",
+  "job_status": "DONE",
+  "memory_count": 1024,
+  "memory_sample": [
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "1",
+    "0",
+    "1",
+    "1",
+    "1"
+  ],
+  "phase": "3.5",
+  "result_fetch_ms": 322.1951659943443,
+  "runtime_ms": 17142.395791001036,
+  "sampler_metadata": {
+    "classical_register": "c",
+    "pub_metadata": {
+      "circuit_metadata": {}
+    },
+    "result_metadata": {
+      "execution": {
+        "execution_spans": "ExecutionSpans([DoubleSliceSpan(<start='2026-05-16 21:00:32', stop='2026-05-16 21:00:33', size=1024>)])"
+      },
+      "version": 2
+    }
+  },
+  "shots": 1024,
+  "token_value_stored": false
+}
