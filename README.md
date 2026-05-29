@@ -1,10 +1,10 @@
-# Quantum-Aware ZK-EHR Source Code
+# Quantum-Safe ZK-EHR Research Artefacts Repository
 
 This repository contains the source-code and reproducibility artefacts for the manuscript:
 
-"Quantum-Aware Extension of Blockchain-Based Zero-Knowledge EHR Systems: IBM Quantum Feasibility and ML-KEM Key-Release Migration"
+"A Quantum-Safe ML-KEM Key-Release Migration and Coexistence Architecture for Groth16-Based ZK-EHR Systems"
 
-The repository supports a quantum-aware extension of a reproduced blockchain-based zero-knowledge EHR baseline. It includes baseline ZK-EHR reproduction code, Groth16/Circom/Solidity verification workflows, encrypted-record/IPFS workflow code, Qiskit/Aer and IBM Quantum feasibility scripts, a QRNG experiment, a toy access-policy quantum circuit, and RSA-OAEP vs. ML-KEM-768 migration-analysis code.
+The repository supports a reproduced ZK-EHR baseline workflow, Groth16/Circom/Solidity verification workflows, encrypted-record/IPFS workflow code, Qiskit/Aer simulator experiments, IBM Quantum hardware execution scripts, QRNG and toy access-policy circuits, RSA-OAEP vs. ML-KEM-768 migration-analysis code, and non-sensitive reproducibility artefacts.
 
 This is a research prototype for reproducibility. It is not a production clinical system.
 
@@ -66,8 +66,8 @@ PQC/ML-KEM environment:
 Clone and enter the repository:
 
 ```bash
-git clone https://github.com/FbalwyTU/quantum-aware-zkehr-source.git
-cd quantum-aware-zkehr-source
+git clone https://github.com/FbalwyTU/quantum-safe-zkehr-source.git
+cd quantum-safe-zkehr-source
 ```
 
 Install the baseline Node dependencies:
@@ -181,7 +181,7 @@ Expected high-level output categories:
 
 If you use this repository, please cite the manuscript:
 
-Albalwy, F. Quantum-Aware Extension of Blockchain-Based Zero-Knowledge EHR Systems: IBM Quantum Feasibility and ML-KEM Key-Release Migration. Manuscript submitted to Systems, 2026.
+Albalwy, F. A Quantum-Safe ML-KEM Key-Release Migration and Coexistence Architecture for Groth16-Based ZK-EHR Systems. Manuscript submitted to Systems, 2026.
 
 Also cite the baseline paper:
 

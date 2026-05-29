@@ -1,18 +1,19 @@
 cff-version: 1.2.0
-message: "If you use this repository, please cite the manuscript and the baseline Systems paper."
-title: "Quantum-Aware ZK-EHR Source Code"
+message: "If you use this Quantum-Safe ZK-EHR repository, please cite the manuscript and the baseline Systems paper."
+title: "Quantum-Safe ZK-EHR Research Artefacts Repository"
 type: software
+abstract: "Source code and non-sensitive reproducibility artefacts for an ML-KEM key-release migration and coexistence architecture for Groth16-based ZK-EHR systems."
 authors:
   - family-names: Albalwy
     given-names: Faisal
     orcid: "https://orcid.org/0000-0002-2342-2156"
-repository-code: "https://github.com/FbalwyTU/quantum-aware-zkehr-source"
-url: "https://github.com/FbalwyTU/quantum-aware-zkehr-source"
+repository-code: "https://github.com/FbalwyTU/quantum-safe-zkehr-source"
+url: "https://github.com/FbalwyTU/quantum-safe-zkehr-source"
 license: MIT
 date-released: "2026-05-23"
 preferred-citation:
   type: article
-  title: "Quantum-Aware Extension of Blockchain-Based Zero-Knowledge EHR Systems: IBM Quantum Feasibility and ML-KEM Key-Release Migration"
+  title: "A Quantum-Safe ML-KEM Key-Release Migration and Coexistence Architecture for Groth16-Based ZK-EHR Systems"
   authors:
     - family-names: Albalwy
       given-names: Faisal

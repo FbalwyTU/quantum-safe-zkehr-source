@@ -2,7 +2,7 @@
 
 ## Purpose
 
-This folder contains the Qiskit-side scaffolding for the Quantum-Aware ZK-EHR extension track. It is separate from the stabilized classical ZK-EHR baseline and must not modify baseline contracts, circuits, IPFS workflow code, or original evaluation scripts.
+This folder contains the Qiskit-side scaffolding for the Quantum-Safe ZK-EHR migration track. It is separate from the stabilized classical ZK-EHR baseline and must not modify baseline contracts, circuits, IPFS workflow code, or original evaluation scripts.
 
 ## What Phase 3.0 Does
 
